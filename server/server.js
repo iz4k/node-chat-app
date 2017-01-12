@@ -1,3 +1,7 @@
+//chatrooms case insensitive
+//unique usernames
+//show active rooms
+
 const path = require('path');
 const http = require('http');
 const express = require('express');
