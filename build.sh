@@ -2,10 +2,13 @@
 #work pls
 ####
 if (grep -i install <<< $@); then
+
     #rm -rf test-bin
     #mkdir test-bin
     #echo 'Test report: Hello, world.' >test-bin/test-report.txt
     echo "Install script"
+    npm -v
+    npm install
 fi
 
 ####
@@ -13,6 +16,7 @@ if (grep -i test <<< $@); then
     #rm -rf test-bin
     #mkdir test-bin
     #echo 'Test report: Hello, world.' >test-bin/test-report.txt
+    npm test
     echo "Successfully ran all tests!"
 fi
 
