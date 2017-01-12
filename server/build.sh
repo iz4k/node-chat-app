@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#work pls
 ####
 if (grep -i install <<< $@); then
     #rm -rf test-bin
